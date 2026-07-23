@@ -491,6 +491,32 @@ main {
     color: var(--accent-green);
 }
 
+/* Ad containers */
+.ad-container {
+    margin: 2rem auto;
+    text-align: center;
+    min-height: 90px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px dashed rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ad-top {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ad-mid {
+    margin: 3rem auto;
+}
+
+.ad-bottom {
+    margin-bottom: 2rem;
+}
+
 /* Footer */
 footer {
     background: rgba(0, 0, 0, 0.3);
