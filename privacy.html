@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Block Byte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" style="text-decoration:none; display:flex; align-items:center; gap:0.5rem;">
+                    <span class="logo-block">B</span><span class="logo-block">B</span>
+                    <span class="logo-text">BLOCK BYTE</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main style="padding-top: 6rem; max-width: 800px; margin: 0 auto; padding-left: 2rem; padding-right: 2rem;">
+        <h1 class="pixel-text" style="font-size: 1.2rem; color: var(--accent-green); margin-bottom: 2rem;">Privacy Policy</h1>
+        <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.9rem;">Last updated: July 23, 2026</p>
+
+        <div style="color: var(--text-secondary); line-height: 1.8; font-size: 0.95rem;">
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">1. Information We Collect</h2>
+            <p>Block Byte operates as a fan-made Minecraft blog. We do not directly collect personal information. However, third-party services used on this site may collect data:</p>
+            <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                <li><strong>Google AdSense:</strong> Uses cookies to serve personalized ads. Google may collect information about your visits to this and other websites.</li>
+                <li><strong>Google Analytics:</strong> Collects anonymous usage data including pages visited, time spent, and browser type.</li>
+            </ul>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">2. Cookies</h2>
+            <p>This website uses cookies through Google AdSense and Google Analytics. Cookies are small text files stored on your device. You can control cookies through your browser settings. Disabling cookies may affect ad personalization.</p>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">3. Third-Party Advertising</h2>
+            <p>We use Google AdSense to display advertisements. Google uses cookies to serve ads based on your prior visits to this website and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to this site and/or other sites on the internet.</p>
+            <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" style="color: var(--accent-green);">Google Ads Settings</a>.</p>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">4. Data Usage</h2>
+            <p>We use collected data to:</p>
+            <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                <li>Improve website content and user experience</li>
+                <li>Serve relevant advertisements</li>
+                <li>Analyze website traffic and usage patterns</li>
+            </ul>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">5. Data Protection</h2>
+            <p>We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties. This does not include trusted third parties who assist in operating the website, so long as those parties agree to keep information confidential.</p>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">6. Children's Privacy</h2>
+            <p>This website is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">7. Changes to This Policy</h2>
+            <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+            <h2 style="color: var(--text-primary); font-size: 1.1rem; margin: 2rem 0 1rem;">8. Contact</h2>
+            <p>For questions about this privacy policy, contact us via <a href="https://github.com/its-me-mario2/block-byte-minecraft/issues" target="_blank" style="color: var(--accent-green);">GitHub Issues</a>.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-block">B</span><span class="logo-block">B</span>
+                <span>BLOCK BYTE</span>
+            </div>
+            <p>A fan-made Minecraft blog. Not affiliated with Mojang Studios or Microsoft.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="https://www.minecraft.net" target="_blank">minecraft.net</a>
+            </div>
+            <p class="copyright">&copy; 2026 Block Byte. Built with blocks and caffeine.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle')?.addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
